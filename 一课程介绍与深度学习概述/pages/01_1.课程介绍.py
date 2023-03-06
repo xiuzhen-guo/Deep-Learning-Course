@@ -1,7 +1,5 @@
 import streamlit as st
-import matplotlib.pyplot as plt
-import numpy as np
-from sklearn.linear_model import LinearRegression
+
 
 tab1, tab2, tab3 = st.tabs(['1.课程简介', '2.课程内容要点', '3.参考书'])
 
