@@ -45,9 +45,9 @@ with tab3:
     r"""$ \qquad $ Step3 如图3，最后将两个勾去掉"""
 
     r"""$ \qquad $ 其余均默认"""
-    picture1 = Image.open('C:/Users/xiuzh/Desktop/course/Deep-Learning-Course/一课程介绍与深度学习概述/图片1.png')
-    picture2 = Image.open('C:/Users/xiuzh/Desktop/course/Deep-Learning-Course/一课程介绍与深度学习概述/图片2.png')
-    picture3 = Image.open('C:/Users/xiuzh/Desktop/course/Deep-Learning-Course/一课程介绍与深度学习概述/图片3.png')
+    picture1 = Image.open('C:\Users\xiuzh\Desktop\course\Deep-Learning-Course\一课程介绍与深度学习概述\图片1.png')
+    picture2 = Image.open('C:\Users\xiuzh\Desktop\course\Deep-Learning-Course\一课程介绍与深度学习概述\图片2.png')
+    picture3 = Image.open('C:\Users\xiuzh\Desktop\course\Deep-Learning-Course\一课程介绍与深度学习概述\图片3.png')
     col1, col2, col3 = st.columns([1,1.1,1.05])
     with col1:
         st.image(picture1,caption='图1')
