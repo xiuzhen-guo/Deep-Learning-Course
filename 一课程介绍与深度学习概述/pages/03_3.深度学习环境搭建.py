@@ -45,16 +45,16 @@ with tab3:
     r"""$ \qquad $ Step3 如图3，最后将两个勾去掉"""
 
     r"""$ \qquad $ 其余均默认"""
-    '''picture1 = Image.open('图片1.png')
-    picture2 = Image.open('图片2.png')
-    picture3 = Image.open('图片3.png')'''
+    '''picture1 = Image.open('C:/Users/xiuzh/Desktop/course/Deep-Learning-Course/一课程介绍与深度学习概述/图片1.png')
+    picture2 = Image.open('C:/Users/xiuzh/Desktop/course/Deep-Learning-Course/一课程介绍与深度学习概述/图片2.png')
+    picture3 = Image.open('C:/Users/xiuzh/Desktop/course/Deep-Learning-Course/一课程介绍与深度学习概述/图片3.png')'''
     col1, col2, col3 = st.columns([1,1.1,1.05])
     with col1:
-        st.image('图片1.png',caption='图1')
+        st.image('C:/Users/xiuzh/Desktop/course/Deep-Learning-Course/一课程介绍与深度学习概述/图片1.png',caption='图1')
     with col2:
-        st.image('图片2.png',caption='图2')
+        st.image('C:/Users/xiuzh/Desktop/course/Deep-Learning-Course/一课程介绍与深度学习概述/图片2.png',caption='图2')
     with col3:
-        st.image('图片3.png',caption='图3')
+        st.image('C:/Users/xiuzh/Desktop/course/Deep-Learning-Course/一课程介绍与深度学习概述/图片3.png',caption='图3')
 
     """- 下载pytorch："""
     r"""$ \qquad $ Step1 开始菜单打开anaconda Navigator→Environments →base⊳ →open Terminal"""
