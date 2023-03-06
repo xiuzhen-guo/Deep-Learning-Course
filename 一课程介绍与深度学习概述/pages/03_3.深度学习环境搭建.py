@@ -1,12 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import statsmodels.formula.api as smf
-import statsmodels.api as sm
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
+from PIL import Image
 
 tab1, tab2, tab3 = st.tabs(['1.基本的命令行命令', '2.硬件', '3.环境配置'])
 
