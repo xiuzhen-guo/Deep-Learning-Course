@@ -102,7 +102,7 @@ with tab3:
     with col1:
         st.image('./一课程介绍与深度学习概述/图片5.png', caption='图5')
     with col2:
-        st.image(./一课程介绍与深度学习概述/图片6.png', caption='图6')
+        st.image('./一课程介绍与深度学习概述/图片6.png', caption='图6')
     with col3:
         st.image('./一课程介绍与深度学习概述/图片7.png', caption='图7')
     with col4:
