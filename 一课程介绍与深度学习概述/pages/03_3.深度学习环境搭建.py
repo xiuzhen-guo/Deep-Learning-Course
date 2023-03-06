@@ -45,13 +45,16 @@ with tab3:
     r"""$ \qquad $ Step3 如图3，最后将两个勾去掉"""
 
     r"""$ \qquad $ 其余均默认"""
+    picture1 = Image.open("C:/Users/xiuzh/Desktop/course/Deep-Learning-Course/一课程介绍与深度学习概述/图片1.png")
+    picture2 = Image.open("C:/Users/xiuzh/Desktop/course/Deep-Learning-Course/一课程介绍与深度学习概述/图片2.png")
+    picture3 = Image.open("C:/Users/xiuzh/Desktop/course/Deep-Learning-Course/一课程介绍与深度学习概述/图片3.png")
     col1, col2, col3 = st.columns([1,1.1,1.05])
     with col1:
-        st.image('C:/Users/xiuzh/Desktop/course/Deep-Learning-Course/一课程介绍与深度学习概述/图片1.png',caption='图1')
+        st.image(picture1,caption='图1')
     with col2:
-        st.image('C:/Users/xiuzh/Desktop/course/Deep-Learning-Course/一课程介绍与深度学习概述/图片2.png',caption='图2')
+        st.image(picture2,caption='图2')
     with col3:
-        st.image('C:/Users/xiuzh/Desktop/course/Deep-Learning-Course/一课程介绍与深度学习概述/图片3.png',caption='图3')
+        st.image(picture3,caption='图3')
 
     """- 下载pytorch："""
     r"""$ \qquad $ Step1 开始菜单打开anaconda Navigator→Environments →base⊳ →open Terminal"""
@@ -79,9 +82,9 @@ with tab3:
     r"""$ \qquad $ 如图4，全局勾选"""
 
     r"""$ \qquad $ 其余均默认"""
-    _ , col1, _ = st.columns([1,1,1])
+    '''_ , col1, _ = st.columns([1,1,1])
     with col1:
-        st.image('C:/Users/xiuzh/Desktop/course/Deep-Learning-Course/一课程介绍与深度学习概述/图片4.png',caption='图4')
+        st.image('C:/Users/xiuzh/Desktop/course/Deep-Learning-Course/一课程介绍与深度学习概述/图片4.png',caption='图4')'''
 
     """- pycharm配置Anaconda环境："""
     r"""$ \qquad $ Step1 双击打开pycharm，点击new project，可更改路径，点击create"""
@@ -94,7 +97,7 @@ with tab3:
     r"""$ \qquad $ Step4 在main.py中输入import torch，点击run不报错，则环境配置完成"""
 
     r"""$ \qquad $ 注意：整个过程需要较长时间，大家耐心按步骤安装！"""
-    col1, col2 = st.columns([1, 1.03])
+    '''col1, col2 = st.columns([1, 1.03])
     col3, col4 = st.columns([1, 1.23])
     with col1:
         st.image('C:/Users/xiuzh/Desktop/course/Deep-Learning-Course/一课程介绍与深度学习概述/图片5.png', caption='图5')
@@ -103,5 +106,5 @@ with tab3:
     with col3:
         st.image('C:/Users/xiuzh/Desktop/course/Deep-Learning-Course/一课程介绍与深度学习概述/图片7.png', caption='图7')
     with col4:
-        st.image('C:/Users/xiuzh/Desktop/course/Deep-Learning-Course/一课程介绍与深度学习概述/图片8.png', caption='图8')
+        st.image('C:/Users/xiuzh/Desktop/course/Deep-Learning-Course/一课程介绍与深度学习概述/图片8.png', caption='图8')'''
 
