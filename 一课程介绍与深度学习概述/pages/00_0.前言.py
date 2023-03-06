@@ -1,7 +1,5 @@
 import streamlit as st
-import matplotlib.pyplot as plt
-import numpy as np
-from sklearn.linear_model import LinearRegression
+
 
 """ 第一章分2次课来讲"""
 """ 本章主要内容是课程介绍、考核方式、深度学习环境搭建和深度学习概述"""
