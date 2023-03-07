@@ -12,7 +12,7 @@ st.markdown(
     <h1></h1>
     <h1></h1>
     <h1></h1>
-    <h1 font="15"><center>Lecture&nbsp4&nbsp&nbsp&nbsp&nbsp三卷积CNN</center></h1>
+    <h1 font="15"><center>Lecture&nbsp3&nbsp&nbsp&nbsp&nbsp三卷积CNN</center></h1>
     </body>
     """,
     unsafe_allow_html=True)
