@@ -414,7 +414,8 @@ with tab3:
     """$ \qquad $ 2.语意相似的词在向量空间上也会比较相近。"""
     """$ \qquad $ 3.通用性很强，可以用在不同的任务中。"""
     _, col1, _ = st.columns([1, 4, 1])
-    with col1:('./四NLP/图片91.png', caption='图91')
+    with col1:
+        st.image('./四NLP/图片91.png', caption='图91')
 
     """- $\\textbf{5.2 种主流的 word embedding 算法}$"""
     _, col1, _ = st.columns([1, 4, 1])
