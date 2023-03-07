@@ -1,7 +1,4 @@
 import streamlit as st
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
 
 """- NLP分3次课来讲"""
 """- NLP的主要内容包括NLP基础、RNN网络、RNN的变种（LSTM、Bi-RNN）、Transformer、3个经典NLP模型和2个应用。"""
