@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 
 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(['1.网络架构', '2.优化', '3.反向传播(BP)', '4.初始化','5.正则化','6.示例——mnist'])
 
